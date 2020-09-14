@@ -171,10 +171,13 @@ input, select, textarea {
 	}
 
 	p {
+		text-shadow: 0px 1px 1px #915f3569;
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		-webkit-text-stroke: 1px #ffffff;
+		text-shadow: 0px 1px 4px #000000;
 		color: #ffffffef;
 		font-weight: bold;
 		line-height: 1.5;
@@ -1866,7 +1869,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ca5f5fc9;
+			background: #915f35;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1915,7 +1918,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #c78148b4 !important;
+			color: #915f3569 !important;
 		}
 
 			input[type="submit"].primary:after,
