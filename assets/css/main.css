@@ -171,13 +171,16 @@ input, select, textarea {
 	}
 
 	p {
-		text-shadow: 0px 1px 1px #915f3569;
+		-webkit-text-stroke: 1px #ffffff;
+		text-shadow: 1px 1px 2px #000000;
+		color: #ffffffef;
+		font-weight: lighter;
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		-webkit-text-stroke: 1px #ffffff;
-		text-shadow: 0px 1px 4px #000000;
+		text-shadow: 3px 1px 4px #000000;
 		color: #ffffffef;
 		font-weight: bold;
 		line-height: 1.5;
@@ -3879,6 +3882,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
+		
 		background-attachment: fixed;
 		background-image: url("images/mainsitteback4.jpg");
 		background-position: top right;
